@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 100px;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+#buscar {
+    width: 280px;
+    margin-top: 4px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+nav .nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .nav-links ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav .nav-links ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.252);
+    transition: 240ms;
+    border-radius: 7px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(111, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.botaoinicio {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botaoinicio:hover {
+    background-color: white;
+    color: black;
+}
+
+.imagem-bem-vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(111, 0, 0);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bem-vindo h1, p {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bem-vindo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+footer {
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
