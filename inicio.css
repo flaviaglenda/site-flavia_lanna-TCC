@@ -5,10 +5,13 @@ body, html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     display: flex;
     flex-direction: column;
+    background: url('fundoinicio.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Define o texto como branco */
 }
 
 nav {
-    background-color: rgb(111, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -66,23 +69,33 @@ nav .nav-links ul li a:hover {
     padding: 50px;
 }
 
-.botaoinicio {
-    background-color: transparent;
-    border: 2px solid black;
-    padding: 10px 25px;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.botaoinicio {
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
+    padding: 10px 28px; /* Diminui um pouco o tamanho do botão */
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
     font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .botaoinicio:hover {
-    background-color: white;
-    color: black;
+    background-color: white; 
+    color: black; 
 }
 
 #imagem-bem-vindo {
@@ -105,7 +118,7 @@ nav .nav-links ul li a:hover {
 
 footer {
     font-family: Verdana;
-    background-color: rgb(111, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding: 15px 0;
